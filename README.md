@@ -12,7 +12,7 @@ A multithreaded TCP server that provides service registration and discovery acro
 - **Database**: SQLite (repository pattern)
 - **Logging**: Text-based file logging with timestamps
 
-## 🎯 Core Features
+## 🎯 Features
 
 -  *Service Registration*: Add a new service with name, IP, port, and expiration time (TEx)
 - *Service Renewal*: Services can auto-renew to remain active
