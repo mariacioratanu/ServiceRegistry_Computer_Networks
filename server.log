@@ -1,0 +1,40 @@
+----------------------------------------------------------
+[21:16:22] Server listening for connections...
+[21:16:24] Server accepted client socket: 5
+[21:16:24] Thread 0 started and waiting for client socket 5
+[21:16:31] Thread 0 received: { "command": "get_service" }
+[21:16:31] Thread 0 sent: { "status": "ok", "message": "Server received: { "command": "get_service" }" }
+[21:16:35] Thread 0: Error or disconnection at read()
+[21:16:35] Thread ending socket: 5
+----------------------------------------------------------
+[21:16:40] Server listening for connections...
+[21:16:42] Server accepted client socket: 5
+[21:16:42] Thread 0 started and waiting for client socket 5
+[21:16:49] Thread 0 received: { "command": "get_service" }
+[21:16:49] Thread 0 sent: { "status": "ok", "message": "Server received: { "command": "get_service" }" }
+[21:16:50] Thread 0: Error or disconnection at read()
+[21:16:50] Thread ending socket: 5
+[22:50:01] Server starting
+[22:50:01] Server listening for connections...
+[22:50:03] Server accepted client socket: 5
+[22:50:03] Thread 0 started and waiting for client socket 5
+[22:50:13] Thread 0 received: { "object": "user", "command": "register", "username": "bob", "password": "bob", "role": "user" }
+[22:50:13] Database opened successfully
+[22:50:13] Table 'users' created or already exists
+[22:50:13] Adding user to database
+[22:50:13] User added successfully
+[22:50:13] Thread 0 sent: { "status": "ok", "message": "User added successfully" }
+[22:50:13] Thread 0: Error or disconnection at read()
+[22:50:13] Thread ending socket: 5
+[22:52:05] Server starting
+[22:52:05] Server listening for connections...
+[22:52:07] Server accepted client socket: 5
+[22:52:07] Thread 0 started and waiting for client socket 5
+[22:52:11] Thread 0 received: { "object": "user", "command": "register", "username": "bob", "password": "bob", "role": "user" }
+[22:52:11] Database opened successfully
+[22:52:11] Table 'users' created or already exists
+[22:52:11] Adding user to database
+[22:52:11] User added successfully
+[22:52:11] Thread 0 sent: { "status": "ok", "message": "User added successfully" }
+[22:52:11] Thread 0: Error or disconnection at read()
+[22:52:11] Thread ending socket: 5
