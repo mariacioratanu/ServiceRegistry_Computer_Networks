@@ -3,8 +3,6 @@ Built on Linux in modern C++, the project implements a multithreaded Service Reg
 
 A multithreaded TCP server that provides service registration and discovery across distributed systems. Built to emulate container orchestration behaviors (e.g. Kubernetes), this registry offers dynamic service lookup, automatic expiration, JSON communication, authentication, and full operational logging.
 
----
-
 ## ⚙️ Tech Stack
 
 - *Language*: C/C++
@@ -13,8 +11,6 @@ A multithreaded TCP server that provides service registration and discovery acro
 - *Networking*: TCP/IP with custom JSON-based protocol
 - *Database*: SQLite (via repository pattern)
 - *Logging*: Text-based file logging with timestamps
-
----
 
 ## 🎯 Core Features
 
@@ -25,8 +21,6 @@ A multithreaded TCP server that provides service registration and discovery acro
 - 🔐 *Authentication*: Only registered and logged-in users can register or update services
 - 🧾 *Logging*: All client-server interactions are logged with timestamp, IP, port, and action
 - 🧠 *Service Lifecycle Threads*: Each registered service has its own thread for expiration monitoring
-
----
 
 ## 🧠 Architecture
 
