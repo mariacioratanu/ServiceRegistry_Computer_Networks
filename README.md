@@ -5,12 +5,12 @@ A multithreaded TCP server that provides service registration and discovery acro
 
 ## ⚙️ Tech Stack
 
-- *Language*: C/C++
-- *Platform*: Linux / UNIX
-- *Concurrency*: POSIX threads (pthread)
-- *Networking*: TCP/IP with custom JSON-based protocol
-- *Database*: SQLite (via repository pattern)
-- *Logging*: Text-based file logging with timestamps
+- **Language**: C/C++
+- **Platform**: Linux / UNIX
+- **Concurrency**: 'pthread' (POSIX threads)
+- **Networking**: TCP/IP with JSON-based protocol
+- **Database**: SQLite (repository pattern)
+- **Logging**: Text-based file logging with timestamps
 
 ## 🎯 Core Features
 
