@@ -7,20 +7,20 @@ A multithreaded TCP server that provides service registration and discovery acro
 
 - **Language**: C/C++
 - **Platform**: Linux / UNIX
-- **Concurrency**: 'pthread' (POSIX threads)
+- **Concurrency**: `pthread` (POSIX threads)
 - **Networking**: TCP/IP with JSON-based protocol
 - **Database**: SQLite (repository pattern)
 - **Logging**: Text-based file logging with timestamps
 
 ## 🎯 Core Features
 
-- ✅ *Service Registration*: Add a new service with name, IP, port, and expiration time (TEx)
-- 🔄 *Service Renewal*: Services can auto-renew to remain active
-- 🔍 *Service Lookup*: Retrieve the IP and port of a named service
-- 📜 *Service Listing*: Return a list of all currently active services
-- 🔐 *Authentication*: Only registered and logged-in users can register or update services
-- 🧾 *Logging*: All client-server interactions are logged with timestamp, IP, port, and action
-- 🧠 *Service Lifecycle Threads*: Each registered service has its own thread for expiration monitoring
+-  *Service Registration*: Add a new service with name, IP, port, and expiration time (TEx)
+- *Service Renewal*: Services can auto-renew to remain active
+-  *Service Lookup*: Retrieve the IP and port of a named service
+-  *Service Listing*: Return a list of all currently active services
+-  *Authentication*: Only registered and logged-in users can register or update services
+-  *Logging*: All client-server interactions are logged with timestamp, IP, port, and action
+-  *Service Lifecycle Threads*: Each registered service has its own thread for expiration monitoring
 
 ## 🧠 Architecture
 
